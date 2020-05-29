@@ -46,7 +46,7 @@ const Todo = () =>{
         completed:false}
     ]);
 
-    useEffect(() => { setTasksRemaining(tasks.filter(task => !task.completed).length) });
+    useEffect(() => { setTasksRemaining(tasks.filter(task => !task.completed).length)});
 
 
     const addTask = title => {
